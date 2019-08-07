@@ -36,13 +36,7 @@ const Homepage = ({
 
 			<section className={classes.features}>
 				<div className={classes.featureItem}>
-					<span
-						alt="Ready for Translations"
-						className="featureImage"
-						style={{
-							fontSize: "100px"
-						}}
-					>
+					<span alt="Ready for Translations" className={classes.featureIcon}>
 						🏋️
 					</span>
 
@@ -55,13 +49,7 @@ const Homepage = ({
 					</p>
 				</div>
 				<div className={classes.featureItem}>
-					<span
-						alt="Ready for Translations"
-						className="featureImage"
-						style={{
-							fontSize: "100px"
-						}}
-					>
+					<span alt="Ready for Translations" className={classes.featureIcon}>
 						💪
 					</span>
 
@@ -74,13 +62,7 @@ const Homepage = ({
 					</p>
 				</div>
 				<div className={classes.featureItem}>
-					<span
-						alt="Ready for Translations"
-						className="featureImage"
-						style={{
-							fontSize: "100px"
-						}}
-					>
+					<span alt="Ready for Translations" className={classes.featureIcon}>
 						⚡️
 					</span>
 
@@ -144,6 +126,9 @@ const useStyles = createUseStyles({
 	featureItem: {
 		textAlign: "center",
 		padding: rhythm(0.5)
+	},
+	featureIcon: {
+		...scale(2.5)
 	}
 });
 
