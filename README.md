@@ -2,6 +2,13 @@
 
 > Gatsby starter I use for my personal projects.
 
+This includes the following plugins:
+* [`gatsby-plugin-react-helmet`](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet/)
+* [`gatsby-plugin-jss`](https://www.gatsbyjs.org/packages/gatsby-plugin-jss/)
+* [`gatsby-plugin-typography`](https://www.gatsbyjs.org/packages/gatsby-plugin-typography/)
+* [`gatsby-plugin-google-analytics`](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/) (if `GOOGLE_ANALYTICS_TRACKING_ID` environment variable is provided)
+* [`gatsby-plugin-netlify`](https://www.gatsbyjs.org/packages/gatsby-plugin-netlify/)
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
