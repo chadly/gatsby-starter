@@ -26,5 +26,5 @@ This includes the following plugins:
 
     ```sh
     cd my-cool-site/
-    yarn start
+    npm start
     ```
